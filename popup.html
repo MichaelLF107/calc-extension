@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple Expression Calculator</title>
+  </head>
+  <body>
+    <span class="title">Simple Expression Calculator</span>
+    <span class="description">
+      Automatically calculates simple expressions in inputs.
+    </span>
+    <span class="description" style="margin-top: 10px">
+      Wrapped between calc{ and }.
+    </span>
+    <div class="content">
+      <span class="description">Example: </span>
+      <span class="example"> calc{16*1024} = 16384 </span>
+    </div>
+  </body>
+</html>
+
+<style>
+  body {
+    width: 350px;
+    height: 150px;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    background-color: #222222;
+    color: #fff;
+  }
+
+  .title {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  .description {
+    display: block;
+    font-size: 14px;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 15px;
+  }
+
+  .example {
+    display: block;
+    font-size: 14px;
+    font-style: italic;
+  }
+</style>
